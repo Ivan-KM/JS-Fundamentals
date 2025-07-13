@@ -1,14 +1,7 @@
-const Arg1 = 'Python';
-const Arg2 = 'fun';
+function printTwoArguments(arg1, arg2) {
+    console.log(arg1 + ' is ' + arg2);
+}
 
-console.log(`${Arg1} is ${Arg2}`);
-
-const Arg3 = 'HBTN';
-const Arg4 = 'undefined';
-
-console.log(`${Arg3} is ${Arg4}`);
-
-const Arg5 = 'undefined';
-const Arg6 = 'undefined';
-
-console.log(`${Arg5} is ${Arg6}`);
+printTwoArguments('Python', 'fun');
+printTwoArguments('HBTN', 'undefined');
+printTwoArguments('undefined', 'undefined');
