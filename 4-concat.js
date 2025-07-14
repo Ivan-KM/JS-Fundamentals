@@ -1,7 +1,4 @@
-function printTwoArguments(arg1, arg2) {
-    console.log(arg1 + ' is ' + arg2);
-}
+const firstArg = process.argv[2];
+const secondArg = process.argv[3];
 
-printTwoArguments('Python', 'fun');
-printTwoArguments('HBTN', 'undefined');
-printTwoArguments('undefined', 'undefined');
+console.log(`${firstArg} is ${secondArg}`);
